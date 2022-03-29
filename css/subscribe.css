@@ -1,0 +1,44 @@
+#subscribe{
+    min-height: 50vh ;
+    background-color: #FFA3AB;
+}
+#subscribe .container{
+    min-height: 50vh;
+}
+#subscribe .container .row{
+    min-height: 50vh;
+}
+#subscribe .container .row .col-lg-6{
+    min-height: 100%;
+}
+#subscribe .container .row .col-lg-6:nth-child(1) form input{
+    font-size: .7em;
+    padding: .5em 1em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#subscribe .container .row .col-lg-6:nth-child(1) form input:nth-child(2){
+    background-color: #fc616e;
+    transition: .5s;
+}
+#subscribe .container .row .col-lg-6:nth-child(1) form input:nth-child(2):hover{
+    color: #fc616e;
+    background-color: #fff;
+}
+#subscribe .container .row .col-lg-6:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#subscribe .container .row .col-lg-6:nth-child(2){
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subscribe .container .row .col-lg-6:nth-child(2) img{
+    position: absolute;
+    width: auto;
+}
+

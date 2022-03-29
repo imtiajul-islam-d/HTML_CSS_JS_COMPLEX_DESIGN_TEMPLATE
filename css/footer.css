@@ -1,0 +1,78 @@
+footer{
+    position: relative;
+    background-color: #97EAB9;
+    padding: 2em 0;
+    /* overflow-x: hidden; */
+}
+.f-s{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 8em;
+    height: auto;
+}
+footer .container .row:nth-child(1) .col-lg-6 p{
+    text-align: justify;
+    margin-top: 2em;
+}
+footer .container .row:nth-child(1) .col-lg-2 {
+    display: flex;
+    flex-direction: column;
+}
+footer .container .row:nth-child(1) .col-lg-2 h6{
+    margin-bottom: 2em;
+}
+footer .container .row:nth-child(1) .col-lg-2 a{
+    text-decoration: none;
+    color: #000;
+}
+/*  */
+footer .container .row:nth-child(2) .col-sm-12{
+    display: flex;
+    justify-content: flex-end;
+}
+footer .container .row:nth-child(2) .col-sm-12 a{
+    text-decoration: none;
+    margin-left: 1.5em;
+    color: #000;
+}
+/*  */
+footer .container .row:nth-child(3){
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 5.5em;
+    margin-bottom: 1em;
+}
+
+footer .container .row:nth-child(3)::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    top: 0;
+}
+footer .container .row:nth-child(4) .col-lg-12{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+footer .container .row:nth-child(4) .col-lg-12 a{
+    text-decoration: none;
+    color: #000;
+}
+footer .container .row:nth-child(3) .f{
+    position: absolute;
+    left: -10%;
+    height: auto;
+    width: 8em;
+}
+.sn{
+    position: absolute;
+    top: -150%;
+    right: 0%;
+}

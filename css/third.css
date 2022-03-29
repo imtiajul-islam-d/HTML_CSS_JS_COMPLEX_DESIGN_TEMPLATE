@@ -1,0 +1,74 @@
+#third{
+    position: relative;
+    min-height: 100vh;
+}
+#third .green img , #third .cycle{
+    position: absolute;
+}
+.cycle-responsive{
+    display: none;
+}
+#third .green{
+    height: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #97EAB9;
+}
+#third .green .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#third .green .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#third .green .container .row .col-lg-6{
+    width: 20em;
+}
+/* third container */
+#third .container{
+    min-height: calc(100vh - 12em);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#third .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+#third .container .row .col-lg-6{
+    width: 15em;
+}
+#third .container .one .col-lg-6:nth-child(1) .fa-bag-shopping{
+    color: rgb(245, 90, 180);
+}
+#third .container .one .col-lg-6:nth-child(2) .fa-cart-shopping{
+    color: rgb(51, 87, 207);
+}
+/*  */
+#third .container .two .col-lg-3 svg{
+    padding: .2em;
+    font-size: .9em;
+}
+#third .container .two .col-lg-3:nth-child(1) .fa-ticket{
+    color: #97EAB9;
+}
+#third .container .two .col-lg-3:nth-child(2) .fa-ellipsis{
+    background-color: rgb(245, 90, 180);
+    color: #fff;
+    border-radius: 50%;
+}
+#third .container .two .col-lg-3:nth-child(3) .fa-ellipsis{
+    background-color: rgb(77, 223, 191);
+    border-radius: 3px;
+}
+#third .container .two .col-lg-3:nth-child(4) .fa-percent{
+    background-color: rgb(245, 90, 180);
+    color: #fff;
+    border-radius: 50%;
+}
+
+
